@@ -13,3 +13,11 @@ def packing_Arguments_List(*data):
 
 unpacking_Argument_List(*args)
 packing_Arguments_List("Hello","World")
+
+n = int(input())
+output=""
+if 1 <= n <= 150:
+    for i in range(1, n+1):
+        output += str(i)
+print(output)
+
